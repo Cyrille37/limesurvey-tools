@@ -13,6 +13,8 @@
  */
 
 // Require https://github.com/weberhofer/jsonrpcphp
+//	Until my pull request merged https://github.com/weberhofer/jsonrpcphp/pull/1
+//	you should use https://github.com/Cyrille37/jsonrpcphp
 require_once(__DIR__.'/jsonrpcphp/org/jsonrpcphp/JsonRPCClient.class.php');
 
 function processOptions()
