@@ -140,7 +140,7 @@ $jsonRpc->release_session_key( $sessionKey );
 
 if( ! is_array($res) )
 {
-	$filename = $options['o'].DIRECTORY_SEPARATOR.'limesurvey_export_responses.'.$options['f'];
+	$filename = $options['o'].DIRECTORY_SEPARATOR.'limesurvey_'.$options['i'].'_responses.'.$options['f'];
 	file_put_contents( $filename, base64_decode( $res ) );
 }
 else
